@@ -1,0 +1,26 @@
+{
+  "name": "playwright-automation-exercise",
+  "version": "1.0.0",
+  "description": "End-to-end test suite for automationexercise.com, built with Playwright and the Page Object Model.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "qa-automation",
+    "e2e-testing",
+    "page-object-model",
+    "javascript",
+    "test-automation"
+  ],
+  "author": "Darlin Manuel Casado Perez",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
